@@ -7,26 +7,34 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Blog preview card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
 
-  <div class="container">
-    <div class="card">
-      <img src="C:\Users\최윤석\Documents\GitHub\blog-preview-card\assets\images\illustration-article.svg">
-    </div>    
+ <section id="preview-card-container">
+  <div class="preview-card-img">
+    <img src="./assets/images/illustration-article.svg" alt="">
   </div>
-
-  Learning
-
-  Published 21 Dec 2023
-
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
+  <div class="preview-card-text">
+    <div class="yellow-bg">
+      <h4>Learning</h4>
+    </div>
+    <p class="published-date">Published 21 Dec 2023</p>
+    <a href="#">
+      <h2 class="blog-post-title"> HTML & CSS foundations</h2>    </a>
+    <p class="preview-text">Theses languagues are the backbone of every website,
+      defining structure, content, and presentation.
+    </p>
+  </div>
+  <div class="blog-post-avatar-container">
+    <img src="./assets/images/image-avatar.webp" alt="Blog Post Author Avator">
+    <h4>Greg Hooper</h4>
+  </div>
+ </section>
   
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
